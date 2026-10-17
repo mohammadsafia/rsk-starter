@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "Search or jump to…",
+  "openCommandPalette": "Open command palette",
+  "notifications": "Notifications",
+  "openUserMenu": "Open user menu",
+  "myProfile": "My profile",
+  "settings": "Settings",
+  "logout": "Log out",
+  "switchLanguage": "Switch language",
+  "switchToLight": "Switch to light theme",
+  "switchToDark": "Switch to dark theme",
+  "toggleTheme": "Toggle theme",
+  "avatarAlt": "{{name}}'s profile picture"
+}

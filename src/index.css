@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;600&family=Schibsted+Grotesk:wght@400;500;600;700&family=Spline+Sans+Mono:wght@400;500&display=swap');
+
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@import './styles/palette.css';
+@import './styles/tokens.css';
+@import './styles/theme.css';
+@import './styles/utilities.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  body {
+    @apply bg-canvas text-fg max-w-[100dvw] overflow-x-hidden font-sans;
+  }
+
+  [dir='rtl'] body {
+    line-height: 1.7;
+  }
+
+  *::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply bg-border-strong rounded-full;
+  }
+
+  ::selection {
+    @apply bg-accent text-accent-fg;
+  }
+
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
+  }
+
+  /* Rehype Pretty Code — dual theme switching */
+  [data-rehype-pretty-code-figure] code {
+    counter-reset: line;
+  }
+
+  [data-rehype-pretty-code-figure] code > [data-line] {
+    padding: 0 1rem;
+  }
+
+  /* --code-surface is dark in both themes, so code always uses the dark syntax palette. */
+  [data-rehype-pretty-code-figure] code [style*='--shiki-dark'] {
+    color: var(--shiki-dark) !important;
+  }
+}
