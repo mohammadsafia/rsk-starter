@@ -1,12 +1,12 @@
 {
-  "kit": "12eabef231c9b0204d066021c4ea45f08e57fb0c",
+  "kit": "08eea9bb1bc980678ac268ac53c5063e8f254fea",
   "blocks": [],
   "files": {
     "scripts/a11y/README.md": "981e5415b26f012a7c45fc2637ebf2751891dcbe669beef4254b5db5740738a1",
     "scripts/a11y/audit.mjs": "088d31ab835924a3c829f2359bbe80b763cf1a15db26d7c8d1224c828df5a788",
     "scripts/bundle/first-load.mjs": "2463904506ae901bbd5fde9fa0d1188a5362a6b30520cf0b791b6ef4fe3c658c",
-    "scripts/kit/add.ts": "e5662e7bc3b40f21e046c288b2e2acecbf84d6741ca840ca31ab3e989f06d6fa",
-    "scripts/kit/blocks.ts": "7bf66f15cc9c31b11e0720824909922f24aad114763cca183c286cb8c49f6e93",
+    "scripts/kit/add.ts": "396d07d99f67f46a2523dbce88ef2621677feb78f931b2f15b08458f4f2e3859",
+    "scripts/kit/blocks.ts": "76335b57d92d680a2d39b0cf54d4b7f922ac6ffbf4e3e68516261382b9ae1836",
     "scripts/kit/core.ts": "7f436c5228a191044a846b59247bfd9d97993f9e32a4344f39a364eba5b61dd7",
     "scripts/kit/download.ts": "85eca4fc7bf47faa2c2811f03b9b25c4ee0411dd0961c39d6168c1a45ae21bfa",
     "scripts/kit/kit.ts": "04215e169c424a4c247c9ee0793863af3aad082639b181e0ddde8304c044cd2b",
@@ -505,8 +505,8 @@
     "tests/design-system/theme-accent.test.ts": "ba4a0a82070fe3f4b81d7e9b8baa97da63b4ea2a0ef86f2e91b95409fb5d32a3",
     "tests/design-system/theme-contract.test.ts": "82950ae35e0021b40055aaaeed8ce8546a45c671f7958eb6d35b4218ee2b9b43",
     "tests/design-system/typecheck-coverage.test.ts": "9103eb51cfff16d8214bbc7d4f8f3937729e9993d12a57c8e187f42db144e387",
-    "tests/kit/add.test.ts": "5021c4d04b316bdcf353475f79162938f588638b7528d3cc127bb349d3fd9faa",
-    "tests/kit/blocks.test.ts": "66adab92ba1bc57e6083766c724e5f185df6886643ffcf321629df3c9d542084",
+    "tests/kit/add.test.ts": "47c142a6beae5936ddbd12abd23ab16600c83258b64ba5e331c538470ff30fb0",
+    "tests/kit/blocks.test.ts": "197192ef035b3ff4a086e550eb503bc189bcb135104f47989491ba7a6d2f016b",
     "tests/kit/kit.test.ts": "c5d933bc5981f07ac0b009fb22e0738de8bf86b95e163760ff98319acec2107b"
   }
 }
