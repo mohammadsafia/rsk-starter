@@ -1,5 +1,5 @@
 {
-  "kit": "16e4d2d875ac9219a94d2f50f5c70c9ebf0f783c",
+  "kit": "42bb8bd8447b808dda6ba48965135feaba9cce9e",
   "files": {
     "scripts/a11y/README.md": "981e5415b26f012a7c45fc2637ebf2751891dcbe669beef4254b5db5740738a1",
     "scripts/a11y/audit.mjs": "088d31ab835924a3c829f2359bbe80b763cf1a15db26d7c8d1224c828df5a788",
@@ -489,6 +489,7 @@
     "tests/design-system/subtle-text.test.ts": "5f3753b96725e7fac8c1cd2f7ac73a4508822f65acd357d0e39448449aa06826",
     "tests/design-system/theme-accent.test.ts": "ba4a0a82070fe3f4b81d7e9b8baa97da63b4ea2a0ef86f2e91b95409fb5d32a3",
     "tests/design-system/theme-contract.test.ts": "82950ae35e0021b40055aaaeed8ce8546a45c671f7958eb6d35b4218ee2b9b43",
+    "tests/design-system/typecheck-coverage.test.ts": "9103eb51cfff16d8214bbc7d4f8f3937729e9993d12a57c8e187f42db144e387",
     "tests/kit/kit.test.ts": "f9df5aec6c0dc023bf4ff006f1dc57fe778df9df976f5d7cb83860f558b1e3d9"
   }
 }
