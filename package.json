@@ -74,7 +74,9 @@
     "ds:migrate": "tsx scripts/design-system/codemods/migrate.ts",
     "ds:classes": "tsx scripts/design-system/codemods/migrate-classes.ts",
     "bundle:report": "vp build && node scripts/bundle/first-load.mjs --dist dist",
-    "a11y:audit": "node scripts/a11y/audit.mjs"
+    "a11y:audit": "node scripts/a11y/audit.mjs",
+    "kit:status": "tsx scripts/kit/kit.ts status",
+    "kit:update": "tsx scripts/kit/kit.ts update"
   },
   "devDependencies": {
     "@babel/core": "^8.0.7",
