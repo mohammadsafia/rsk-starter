@@ -1,12 +1,2 @@
-export const useAuth = () => {
-  return {
-    currentUser: {
-      name: 'Demo User',
-      email: 'demo@example.com',
-      picture: '',
-      userId: '1',
-    },
-    removeCurrentUser: () => {},
-    isAuthed: true,
-  };
-};
+// The session lives in AuthProvider (@contexts); this keeps `import { useAuth } from '@hooks/shared'` working.
+export { useAuth } from '../../contexts/AuthContext';
