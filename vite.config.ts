@@ -1,4 +1,4 @@
-import { defineConfig, lazyPlugins } from 'vite-plus';
+import { configDefaults, defineConfig, lazyPlugins } from 'vite-plus';
 import path from 'path';
 import react, { reactCompilerPreset } from '@vitejs/plugin-react';
 import babel from '@rolldown/plugin-babel';
@@ -30,7 +30,7 @@ export default defineConfig({
     env: {
       builtin: true,
     },
-    ignorePatterns: ['dist', 'src/types/api/**', 'src/types/api-v2/**'],
+    ignorePatterns: ['dist', 'registry', 'src/types/api/**', 'src/types/api-v2/**'],
     overrides: [
       {
         files: ['**/*.{ts,tsx}'],
@@ -155,6 +155,8 @@ export default defineConfig({
     // https://viteplus.dev/guide/vitest-v5#remove-unneeded-compatibility-settings
     // https://vitest.dev/guide/migration/#clearmocks-is-enabled-by-default
     clearMocks: false,
+    // registry/ holds the block catalogue's sources for kit:add, not this app's tests.
+    exclude: [...configDefaults.exclude, 'registry/**'],
   },
   fmt: {
     tabWidth: 2,
@@ -168,7 +170,7 @@ export default defineConfig({
     sortPackageJson: false,
     sortTailwindcss: {},
     // *.hbs: DTO generator templates; formatting them as HTML corrupts generated output.
-    ignorePatterns: ['**/*.hbs'],
+    ignorePatterns: ['**/*.hbs', 'registry/**', 'kit.lock.json', 'first-load-*.json'],
   },
   // The React Compiler memoizes components and hooks at build time (Babel preset; the Rust port is still experimental).
   plugins: lazyPlugins(() => [react(), babel({ presets: [reactCompilerPreset()], exclude: COMPILER_EXCLUDE }), tailwindcss()]),
@@ -188,6 +190,7 @@ export default defineConfig({
       { find: '@utils', replacement: path.resolve(__dirname, 'src/lib/utils') },
       { find: '@hoc', replacement: path.resolve(__dirname, 'src/lib/hoc') },
       { find: '@components', replacement: path.resolve(__dirname, 'src/components') },
+      { find: '@blocks', replacement: path.resolve(__dirname, 'src/blocks') },
       { find: '@pages', replacement: path.resolve(__dirname, 'src/pages') },
       { find: '@views', replacement: path.resolve(__dirname, 'src/views') },
       { find: '@layouts', replacement: path.resolve(__dirname, 'src/layouts') },
