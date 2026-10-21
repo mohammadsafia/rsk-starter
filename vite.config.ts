@@ -158,6 +158,9 @@ export default defineConfig({
     // registry/ holds the block catalogue's sources for kit:add, not this app's tests.
     exclude: [...configDefaults.exclude, 'registry/**'],
   },
+  staged: {
+    '*': 'vp check --fix',
+  },
   fmt: {
     tabWidth: 2,
     useTabs: false,

@@ -1,5 +1,5 @@
 {
-  "kit": "08eea9bb1bc980678ac268ac53c5063e8f254fea",
+  "kit": "cecc36eff9c78c71709bfbfa8589bd2e26b42bc7",
   "blocks": [],
   "files": {
     "scripts/a11y/README.md": "981e5415b26f012a7c45fc2637ebf2751891dcbe669beef4254b5db5740738a1",
@@ -485,7 +485,7 @@
     "tests/design-system/color.ts": "ee38f1ec6c1bcea7c6acfdb7deb8c443102d4f4b7c3cb12e785c1d9106f9db9a",
     "tests/design-system/contrast.test.ts": "ba1a346c2fa0ba7dd2e431725ef7e30c8408276d916c9a6ce29a37e47986b16d",
     "tests/design-system/css-tokens.ts": "427a7d745743c07587bd7f598e85e19e1f03de6d0ab51a196ba875a6ac88fcec",
-    "tests/design-system/dependencies.test.ts": "394375696dc583d2ed577965534a07da1bce336682c3dc9c6c776ed06b4b85c1",
+    "tests/design-system/dependencies.test.ts": "3fe48356a52c74b49f79dff6984c98654e8b6e99e6d4e17e5785e6140afe5e04",
     "tests/design-system/dependency-corpus.test.ts": "4ef9f831ad86e47013f7f8bf60855aa3cbd4eb201e4c031a4fdade5b276274b5",
     "tests/design-system/dependency-corpus.ts": "d1f2735cc6ce390788104bfda1cb2cd8e28b0d8e9f0aedd27594080e6a614498",
     "tests/design-system/favicons.test.ts": "4fd1522fe23da0d845887d0bc856f0b6769c746b805cb773f441cdcb88a96fe2",
