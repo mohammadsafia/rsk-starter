@@ -1,5 +1,5 @@
 {
-  "kit": "434e26634063d2c883e69f3e966452c621138160",
+  "kit": "f952c02b9474e4a93546ccbbbc454cbbe6ff5ee9",
   "starter": "mohammadsafia/rsk-starter",
   "target": "vite",
   "blocks": [],
@@ -470,8 +470,8 @@
     "src/lib/hooks/utils/useDataTable.ts": "c143ec23af1c201a2e822d94f9f2210f93872749b6579bf4e75bfe3a7badb2c0",
     "src/lib/hooks/utils/useRouteUtils.ts": "5b58d2cf48ca88f5138eacf4210eb27ae8dd0beaf312c54cb3615603f16c52fb",
     "src/lib/hooks/utils/useRowEditing.tsx": "0661b28c692fceaa49d63ff13f3685120fbe0e9dd3cb997cc464e4666ea1fe52",
-    "src/lib/utils/auth.test.ts": "a5d792a03104df6148bb0220f0e34996e14aaeecf7029b1a6f70990bb4b0146c",
-    "src/lib/utils/auth.ts": "8c5e96ecd6bf9ff42a4a45069e703718d8a2cec44736dd4a3b2b9a1afe449227",
+    "src/lib/utils/auth.test.ts": "9b7b839c9d609b6d31f2387bc14ac4934c168dbc2a349483405ed02e1eb5231b",
+    "src/lib/utils/auth.ts": "10c9d8355f7c3b9aa58ff254767615f07e65ca5bde7d881e31346724d69aa4ed",
     "src/lib/utils/dataTable.pinning.test.ts": "dc7a510a761307fe39ce4032165ecd847bf916955a5ac00698eeffe83c837801",
     "src/lib/utils/dataTable.ts": "42a422b0a67dbe28cc5dc90bb4233abdb8b3c221d5aea9b00ad4b9c476d5ece3",
     "src/lib/utils/dataTableFilters.test.ts": "5a5441201fc9ded3092c67a56806c0ae6f87f8f16639d1a4e38c2ad115ec034c",
