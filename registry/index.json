@@ -55,17 +55,20 @@
       {
         "path": "*",
         "component": "NotFoundPage",
-        "layout": "bare"
+        "layout": "bare",
+        "titleKey": "notFound.title"
       },
       {
         "path": "/maintenance",
         "component": "MaintenancePage",
-        "layout": "bare"
+        "layout": "bare",
+        "titleKey": "maintenance.title"
       },
       {
         "path": "/no-access",
         "component": "NoAccessPage",
-        "layout": "app"
+        "layout": "app",
+        "titleKey": "noAccess.title"
       }
     ],
     "nav": [],
