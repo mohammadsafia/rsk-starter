@@ -4,6 +4,9 @@ import react, { reactCompilerPreset } from '@vitejs/plugin-react';
 import babel from '@rolldown/plugin-babel';
 import tailwindcss from '@tailwindcss/vite';
 
+import { devServer } from './scripts/lib/dev-server';
+import { TEST_TIMEOUT_MS } from './src/test-utils/timeouts';
+
 /** This project's root as Vite writes module ids (posix slashes), escaped for a RegExp. */
 const ROOT_ID = __dirname
   .split(path.sep)
@@ -150,6 +153,9 @@ export default defineConfig({
     },
   },
   test: {
+    // A realistic wait for an element, well under the test limit (src/test-utils/timeouts.ts).
+    testTimeout: TEST_TIMEOUT_MS,
+    setupFiles: ['./src/test-utils/setup.ts'],
     // Vitest v4 compatibility: preserve mock call history.
     // Remove after tests no longer rely on calls from setup or earlier tests.
     // https://viteplus.dev/guide/vitest-v5#remove-unneeded-compatibility-settings
@@ -177,10 +183,8 @@ export default defineConfig({
   },
   // The React Compiler memoizes components and hooks at build time (Babel preset; the Rust port is still experimental).
   plugins: lazyPlugins(() => [react(), babel({ presets: [reactCompilerPreset()], exclude: COMPILER_EXCLUDE }), tailwindcss()]),
-  server: {
-    port: 3000,
-    open: true,
-  },
+  // Port 3000 and no API proxy unless FRONTEND_PORT / API_PROXY_TARGET say otherwise (scripts/lib/dev-server.ts).
+  server: devServer(),
 
   resolve: {
     alias: [
