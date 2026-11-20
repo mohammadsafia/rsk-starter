@@ -1,5 +1,5 @@
 {
-  "kit": "78689e7e1c51a7c5e4d4619191a5705a3425d2a5",
+  "kit": "11fcd67990335c003941f73e852501f9a52b8d2d",
   "starter": "mohammadsafia/rsk-starter",
   "target": "vite",
   "blocks": [],
@@ -217,7 +217,7 @@
     "src/components/shared/stepper/index.ts": "sha256:806752671a553b5712cb27a02fb111dcf8ef3e67994d9e5a062baea98f7f6564",
     "src/components/shared/theme-switcher/ThemeSwitcher.tsx": "sha256:523881ae91d73b4f2a50b6d624322aeca3b9615d59673db8779239947a2df8cf",
     "src/components/shared/theme-switcher/index.ts": "sha256:9c5245fb3a6cf0f5d77dd0bd49894850e5adcaa3538c24e92cf262e926dd2506",
-    "src/components/shared/timeline/Timeline.test.tsx": "sha256:ec3d820fe33c8723018dd4d9e7dbae39e41920fad57243a106eadb00a5ea1b60",
+    "src/components/shared/timeline/Timeline.test.tsx": "sha256:d8a949b9c54f5af525922d56568161b4027f7a203b54d31453d5d516412a591b",
     "src/components/shared/timeline/Timeline.tsx": "sha256:e92c27490e1421a37a9de6bc397478765df8570107c67b5d13558528b1da3c23",
     "src/components/shared/timeline/index.ts": "sha256:f04a7aae60f3856ebf13d71fd0ce6d82b51f8cd10881ef07535bdbf89b559b6a",
     "src/components/shared/timeline/useGroupedByDay.ts": "sha256:43df2b10c4b963a9520c5f1737ee353720a22a36d3fa0dccad4d074b8e1f028f",
@@ -552,6 +552,7 @@
     "tests/kit/dev-server.test.ts": "sha256:4f4def33a62430ee651343386e7d5e285e0b58115300e95c6e366271ac7fda68",
     "tests/kit/gaps.test.ts": "sha256:240a912af97fe49ef9a872aa373223217df3c6ed3485970d647fb95931aa452e",
     "tests/kit/kit.test.ts": "sha256:f0821b8cba647ba1862b259ac8646cc4835ce4ae7b172ba2735e7ccb387c18a6",
+    "tests/kit/real-clock.test.ts": "sha256:c0c1dfd68c9a475d1c75e5e5c67387a924d112bd2f03a2c2c9293e57a23e1400",
     "tests/kit/target.test.ts": "sha256:7415648db3f3b4327b53f43c7cff4ad57347fa32e8aa98417f6cb7a21150c723",
     "tests/kit/wiring.test.ts": "sha256:b9d47cfd4cd54c9e325a8be1dad9fc7177ec6d63890cc43be6e2f6568e4988ff"
   }
