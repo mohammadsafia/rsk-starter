@@ -1,5 +1,5 @@
 {
-  "kit": "11fcd67990335c003941f73e852501f9a52b8d2d",
+  "kit": "c1e83af1cb8ff394c513f364f2c2c6261748addf",
   "starter": "mohammadsafia/rsk-starter",
   "target": "vite",
   "blocks": [],
@@ -105,10 +105,10 @@
     "src/components/forms/form-container/FormContainer.tsx": "sha256:b3e4cac71fca6feda747f45b9fa7a535966093d9545bcd91ffdd1743be16ebc8",
     "src/components/forms/form-container/FormContainerActions.tsx": "sha256:3629ed63427f673c3b2143114d6691c4a64db154a6b84666a7ee245c58f27462",
     "src/components/forms/form-container/index.ts": "sha256:6914d5555e6b5e42dfc51b6c0e2d6f65a8c2b3037345d4c9afe903f6827e4a14",
-    "src/components/forms/form-date-picker/FormDatePicker.test.tsx": "sha256:b05ca413223e8d910d3678d66ef6159731593c7156acf63dfd46a02f0976d5f7",
-    "src/components/forms/form-date-picker/FormDatePicker.tsx": "sha256:a90ffb78c8cc14bc96581e5bc2645239b1d9774a8913588356f818cfa74d6d50",
+    "src/components/forms/form-date-picker/FormDatePicker.test.tsx": "sha256:d6a22083cff8b29c8689ca26a4e21804edd7f46d80f149148dec6ae62cdc7dd3",
+    "src/components/forms/form-date-picker/FormDatePicker.tsx": "sha256:e7e48e6f0e89b685a91cfadbe286c77d89674f06e30bded0f02efc11effe5d53",
     "src/components/forms/form-date-picker/index.ts": "sha256:3016fe6a0a15d38cf24d2f0bbc98afeb4bfe77a49a12d96fb231e63503be8179",
-    "src/components/forms/form-date-range/FormDateRange.tsx": "sha256:07691ee86fe402a857acd4c64eebffba7bce3e56f1f047d79696a91ec13c0fcf",
+    "src/components/forms/form-date-range/FormDateRange.tsx": "sha256:86059a75cbe2afd3b784d0d7f61b3b8eaff7a0d43933db0523ba2254e602ead9",
     "src/components/forms/form-date-range/index.ts": "sha256:d2d112bdc2da4d0ef2e8db10283c4e33da58ad924c3d0141f209096b719bb660",
     "src/components/forms/form-date-sync.test.tsx": "sha256:5b7716e1f0c05d7619b66fcccba041ad4a35cd8a01fef62217d33328dba9d70e",
     "src/components/forms/form-date-time-fields.test.tsx": "sha256:bbdb63729cc5aaca6d6a89f410c17d1d3abcb99a69e821bb58d90e0fb5db1165",
@@ -552,7 +552,7 @@
     "tests/kit/dev-server.test.ts": "sha256:4f4def33a62430ee651343386e7d5e285e0b58115300e95c6e366271ac7fda68",
     "tests/kit/gaps.test.ts": "sha256:240a912af97fe49ef9a872aa373223217df3c6ed3485970d647fb95931aa452e",
     "tests/kit/kit.test.ts": "sha256:f0821b8cba647ba1862b259ac8646cc4835ce4ae7b172ba2735e7ccb387c18a6",
-    "tests/kit/real-clock.test.ts": "sha256:c0c1dfd68c9a475d1c75e5e5c67387a924d112bd2f03a2c2c9293e57a23e1400",
+    "tests/kit/real-clock.test.ts": "sha256:8fc7cc992affd74d2b380860b37ae3c85318b93be6b40f21cde860fc902ae460",
     "tests/kit/target.test.ts": "sha256:7415648db3f3b4327b53f43c7cff4ad57347fa32e8aa98417f6cb7a21150c723",
     "tests/kit/wiring.test.ts": "sha256:b9d47cfd4cd54c9e325a8be1dad9fc7177ec6d63890cc43be6e2f6568e4988ff"
   }
