@@ -1,5 +1,5 @@
 {
-  "kit": "e9f6b034ba55ab47b54131b169092acd56ec32a4",
+  "kit": "422d5550e60d117a16563bb652757ef6b228da20",
   "starter": "mohammadsafia/rsk-starter",
   "target": "vite",
   "blocks": [],
@@ -106,7 +106,7 @@
     "src/components/forms/form-container/FormContainerActions.tsx": "sha256:3629ed63427f673c3b2143114d6691c4a64db154a6b84666a7ee245c58f27462",
     "src/components/forms/form-container/index.ts": "sha256:6914d5555e6b5e42dfc51b6c0e2d6f65a8c2b3037345d4c9afe903f6827e4a14",
     "src/components/forms/form-date-picker/FormDatePicker.test.tsx": "sha256:e24c1fbf10555812cbd273be44a527d4ccf4c4494a5807285ca7b1c600833908",
-    "src/components/forms/form-date-picker/FormDatePicker.tsx": "sha256:e7e48e6f0e89b685a91cfadbe286c77d89674f06e30bded0f02efc11effe5d53",
+    "src/components/forms/form-date-picker/FormDatePicker.tsx": "sha256:55ceccfb0a9d24762d31eb66e57d73efda0fbfc499b0a75a96ffa81544c1b4a4",
     "src/components/forms/form-date-picker/index.ts": "sha256:3016fe6a0a15d38cf24d2f0bbc98afeb4bfe77a49a12d96fb231e63503be8179",
     "src/components/forms/form-date-range/FormDateRange.tsx": "sha256:86059a75cbe2afd3b784d0d7f61b3b8eaff7a0d43933db0523ba2254e602ead9",
     "src/components/forms/form-date-range/index.ts": "sha256:d2d112bdc2da4d0ef2e8db10283c4e33da58ad924c3d0141f209096b719bb660",
