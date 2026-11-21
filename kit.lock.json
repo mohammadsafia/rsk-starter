@@ -1,5 +1,5 @@
 {
-  "kit": "fe652dd4d1dd71c1c5cf2e82750ae79a31b9fd2a",
+  "kit": "e9f6b034ba55ab47b54131b169092acd56ec32a4",
   "starter": "mohammadsafia/rsk-starter",
   "target": "vite",
   "blocks": [],
@@ -288,7 +288,7 @@
     "src/components/ui/calendar-time-grid/CalendarTimeGrid.tsx": "sha256:9e97ff4da613f59d19b5f49875a1a55d80b3998f38fc9113ccb17d1526aaea73",
     "src/components/ui/calendar-time-grid/index.ts": "sha256:b870d27943532d7dba83374557ae9e08f89a4f77f73a448269620057e1b79f4e",
     "src/components/ui/calendar/Calendar.test.tsx": "sha256:6491fa8fd5c7aec08e896ee1ceada75eeeabdce02576cbe3868d8a8594b72482",
-    "src/components/ui/calendar/Calendar.tsx": "sha256:4d397624fe695fa67e81cebe117ace96d23f482f36e50dcf48f88beb8f8a236f",
+    "src/components/ui/calendar/Calendar.tsx": "sha256:35bbe96f54cf56c341c3e8bbf0eb2c4be4aa519e60c7519a17947a9266829c7c",
     "src/components/ui/calendar/index.ts": "sha256:876d7bb3291c193b5c30674fd3d46f952c4b848069c305da6af07c425cd2f4fd",
     "src/components/ui/card/Card.test.tsx": "sha256:211445db878e5a9dc4ab5f9a1297acec6b623c68ab50f2cd67b5bd692b1bf4a0",
     "src/components/ui/card/Card.tsx": "sha256:d3faba237b90c1e6d797ab1f4c552cc5ab0c2e5b25ebd1d21c91699de6ac4940",
